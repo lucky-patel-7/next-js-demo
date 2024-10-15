@@ -15,16 +15,16 @@ export default function Home() {
         <section className={styles.intro}>
           <p className={styles.description}>
             This project demonstrates the capabilities of <strong>Next.js</strong>, a
-            popular framework for building modern web applications. Here’s what we’ve achieved:
+            popular framework for building modern web applications. Here&rsquo;s what we&rsquo;ve achieved:
           </p>
           <ul className={styles.summaryList}>
-            <li>✔️ <strong>Client-side Products List:</strong> Dynamic fetching with React's `useEffect` hook.</li>
+            <li>✔️ <strong>Client-side Products List:</strong> Dynamic fetching with React&apos;s <code>useEffect</code> hook.</li>
             <li>✔️ <strong>Server-side Products List:</strong> SEO-friendly rendering during page load.</li>
             <li>✔️ <strong>Nested Routes:</strong> Clean URLs with dynamic routing.</li>
             <li>✔️ <strong>User Profiles:</strong> Displaying user data based on route parameters.</li>
             <li>✔️ <strong>Posts List:</strong> Demonstrating list rendering from an external API through Next.js API routes.</li>
             <li>✔️ <strong>API Routes for Posts:</strong> Using Next.js custom API routes to fetch posts dynamically and display them as a list.</li>
-            <li>✔️ <strong>Reusable Navbar:</strong> Client-side routing with Next.js `link` component.</li>
+            <li>✔️ <strong>Reusable Navbar:</strong> Client-side routing with Next.js <code>link</code> component.</li>
             <li>✔️ <strong>Global and Modular Styling:</strong> Scoped CSS modules for styling components.</li>
           </ul>
         </section>

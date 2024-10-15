@@ -9,7 +9,7 @@ import nextLogo from "./images/png-transparent-nextjs-hd-logo-removebg-preview.p
 export default function Navbar() {
   return (
     <header className="navbar">
-     <Image src={nextLogo} width={150} height={70}/>
+     <Image src={nextLogo} width={150} height={70} alt="logo"/>
       <nav>
         <ul className="nav-list">
           <li>
