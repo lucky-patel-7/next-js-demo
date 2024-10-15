@@ -1,0 +1,44 @@
+/* app/nestedRoutes/NestedRoutes.module.css */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40vh; /* Full viewport height */
+
+    background-color: #f5f5f5;
+  }
+  
+  .itemList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .item {
+    padding: 15px;
+    margin: 10px 0;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .item:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+  }
+  
+  .link {
+    text-decoration: none;
+    color: #0070f3;
+    font-weight: bold;
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+  }
+  

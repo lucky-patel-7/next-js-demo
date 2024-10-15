@@ -1,0 +1,60 @@
+/* app/users/[id]/User.module.css */
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .id {
+    font-size: 1.2rem;
+    color: #777;
+    margin-bottom: 20px;
+  }
+  
+  .explanation {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .links {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+  }
+  
+  .link {
+    text-decoration: none;
+    color: #61dafb;
+    font-weight: bold;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .link:hover {
+    color: #0070f3;
+  }
+  
+  .button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+  

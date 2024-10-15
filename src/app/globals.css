@@ -1,0 +1,153 @@
+/* Global Reset and Basic Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif; /* Clean and modern body font */
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+/* Heading Styles */
+h1, h2, h3, h4 {
+  font-family: 'Lora', serif; /* Elegant font for headings */
+  text-align: center;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+/* Navbar Styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #beb8b8;
+  padding: 1rem 2rem;
+  color: white;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-list li {
+  display: inline;
+}
+
+.nav-list a {
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.2s ease-in-out;
+}
+
+.nav-list a:hover {
+  color: #0070f3;
+}
+
+/* Main Page Layout Styles */
+.page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header {
+  text-align: center;
+  margin: 20px;
+}
+
+.main {
+  flex: 1;
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.intro {
+  margin-bottom: 20px;
+  font-size: 1rem;
+}
+
+/* Summary List */
+.summaryList {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.summaryList li {
+  margin-bottom: 10px;
+}
+
+/* Call to Action Buttons */
+.ctas {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.primary {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background-color: #0070f3;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.2s;
+}
+
+.primary:hover {
+  background-color: #005bb5;
+}
+
+.secondary {
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #eaeaea;
+  color: #333;
+  text-decoration: none;
+  transition: background-color 0.2s;
+}
+
+.secondary:hover {
+  background-color: #d0d0d0;
+}
+
+/* Footer Styles */
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.footerLinks {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.footerLinks a {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.footerLinks a:hover {
+  color: #61dafb;
+}
